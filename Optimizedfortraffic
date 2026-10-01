@@ -1,4 +1,334 @@
-<html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>PERSIAI GROUP, LLC | Commercial Capital Markets & Strategic Advisory</title> <!-- ========================================================================== CORE INSTITUTIONAL SEO OVERRIDES ========================================================================== --> <meta name="description" content="PERSIAI GROUP, LLC provides sophisticated institutional B2B commercial capital advisory, enterprise cash flow engineering, and specialized working capital facilities nationwide. Optimize your capital readiness."> <meta name="keywords" content="PERSIAI GROUP LLC, Commercial Capital Advisory, Capital Readiness, Cash Flow Engineering, Commercial Lines of Credit, Private Placement Consulting, Government Contract Funding"> <meta name="author" content="Guillermo D. Anaya Diaz"> <meta name="robots" content="index, follow"> <link rel="canonical" href="https://persiaigroup.com"> <!-- Open Graph Parameter Mapping (LinkedIn & Institutional Social Previews) --> <meta property="og:type" content="website"> <meta property="og:title" content="PERSIAI GROUP, LLC | Commercial Capital Markets"> <meta property="og:description" content="Institutional B2B alternative finance consulting, enterprise debt structure optimization, and asset portfolio positioning."> <meta property="og:url" content="https://persiaigroup.com"> <meta property="og:site_name" content="PERSIAI GROUP, LLC"> <style> :root { --bg-color: #000000; --container-bg: rgba(10, 10, 10, 0.9); --text-color: #e5e5e5; --accent-gold: #d4af37; --deep-gold: #aa841c; --muted-color: #a3a3a3; --border-color: #1a1a1a; } * { box-sizing: border-box; margin: 0; padding: 0; } body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: var(--bg-color); background-image: radial-gradient(rgba(
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PERSIAI GROUP, LLC | Commercial Capital Markets & Strategic Advisory</title>
+<meta name="description" content="PERSIAI GROUP, LLC provides sophisticated institutional B2B commercial capital advisory, enterprise cash flow engineering, and specialized working capital facilities nationwide. Optimize your capital readiness.">
+<meta name="keywords" content="PERSIAI GROUP LLC, Commercial Capital Advisory, Capital Readiness, Cash Flow Engineering, Commercial Lines of Credit, Private Placement Consulting, Government Contract Funding">
+<meta name="author" content="Guillermo D. Anaya Diaz">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.google.com/url?q=https://persiaigroup.com/&source=gmail&ust=1790943898203000&sa=E">
 
+<!-- Open Graph Metadata -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="PERSIAI GROUP, LLC | Commercial Capital Markets">
+<meta property="og:description" content="Institutional B2B alternative finance consulting, enterprise debt structure optimization, and asset portfolio positioning.">
+<meta property="og:url" content="https://www.google.com/url?q=https://persiaigroup.com/&source=gmail&ust=1790943898203000&sa=E">
+<meta property="og:site_name" content="PERSIAI GROUP, LLC">
 
-212, 175, 55, 0.015) 1px, transparent 0), radial-gradient(ellipse at 50% 20%, rgba(170, 132, 28, 0.1), transparent 50%); background-size: 30px 30px, 100% 100%; color: var(--text-color); line-height: 1.6; padding: 40px 20px; display: flex; justify-content: center; align-items: center; min-height: 100vh; } .container { max-width: 650px; width: 100%; background: var(--container-bg); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); padding: 40px; border-radius: 8px; border: 1px solid var(--border-color); box-shadow: 0 30px 60px rgba(0, 0, 0, 0.95); position: relative; overflow: hidden; } .container::before { content: ""; position: absolute; top: 0; right: 0; width: 100%; height: 3px; background: linear-gradient(90deg, transparent, var(--accent-gold), transparent); } header { margin-bottom: 32px; border-bottom: 1px solid var(--border-color); padding-bottom: 24px; text-align: center; } /* Pure CSS Vector Logo: 4th Concept (Lorenz Chaotic Attractor Loops) */ .logo-mark { width: 90px; height: 55px; margin: 0 auto 20px auto; position: relative; opacity: 0.95; } .logo-mark::before { content: ""; position: absolute; width: 42px; height: 48px; right: 2px; top: 2px; border: 2px solid var(--accent-gold); border-radius: 65% 35% 45% 55% / 40% 60% 40% 60%; transform: rotate(25deg); border-left: 1px solid transparent; border-bottom: 1px solid transparent; } .logo-mark::after { content: ""; position: absolute; width: 42px; height: 48px; left: 2px; top: 2px; border: 2px solid #ffffff; border-radius: 35% 65% 55% 45% / 60% 40% 60% 40%; transform: rotate(-25deg); border-right: 1px solid transparent; border-bottom: 1px solid transparent; opacity: 0.8; } h1 { font-size: 1.75rem; font-weight: 700; letter-spacing: 0.05em; color: #ffffff; margin-bottom: 4px; } .subtitle { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--accent-gold); font-weight: 600; margin-bottom: 16px; } .executive-contact { font-size: 0.85rem; color: var(--muted-color); border-left: 2px solid var(--accent-gold); padding-left: 12px; margin: 16px auto 0 auto; display: inline-block; text-align: left; } .executive-name { color: #ffffff; font-weight: 500; letter-spacing: 0.02em; } main { margin-bottom: 32px; } section { margin-bottom: 32px; } section h2 { font-size: 1rem; font-weight: 600; color: #ffffff; margin-bottom: 16px; text-transform: uppercase; letter-spacing: 0.1em; border-bottom: 1px solid var(--border-color); padding-bottom: 6px; } /* Target Paragraph: Single-Spaced Focus Executive Copy */ .about-text { font-size: 0.95rem; color: #cccccc; text-align: justify; line-height: 1.3; } .cap-grid { display: grid; grid-template-columns: 1fr; gap: 12px; } .cap-card { background: #0a0a0a; padding: 18px; border-radius: 4px; border: 1px solid var(--border-color); transition: border-color 0.2s ease; } .cap-card:hover { border-color: var(--deep-gold); } .cap-card h3 { font-size: 0.95rem; color: var(--accent-gold); margin-bottom: 6px; font-weight: 600; letter-spacing: 0.02em; } .cap-card p { font-size: 0.9rem; color: var(--muted-color); line-height: 1.35; } .cta-container { display: flex; flex-direction: column; gap: 16px; align-items: center; margin-top: 36px; } .btn { display: inline-block; width: 100%; max-width: 380px; text-align: center; font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.1em; text-decoration: none; padding: 14px 24px; border-radius: 4px; transition: all 0.2s ease; } .btn-primary { background-color: transparent; color: var(--accent-gold); border: 1px solid var(--accent-gold); } .btn-primary:hover { background-color: var(--accent-gold); color: #000000; box-shadow: 0 0 15px rgba(212, 175, 55, 0.3); } .btn-secondary { background-color: #0f0f0f; color: #ffffff; border: 1px solid var(--border-color); font-size: 0.8rem; } .btn-secondary:hover { border-color: var(--muted-color); background-color: #1a1a1a; } footer { border-top: 1px solid var(--border-color); padding-top: 20px; text-align: center; font-size: 0.75rem; color: var(--muted-color); letter-spacing: 0.05em; } /* 📱 UNIVERSAL SMARTPHONE RESPONSIVE OVERRIDES */ @media (max-width: 480px) { body { padding: 15px 10px; } .container { padding: 24px 16px; } h1 { font-size: 1.4rem; line-height: 1.2; } .subtitle { font-size: 0.75rem; letter-spacing: 0.1em; } .about-text { font-size: 0.9rem; line-height: 1.25; } .cap-card { padding: 14px; } .cap-card p { line-height: 1.25; } .btn { padding: 12px 16px; font-size: 0.8rem; } } </style> </head> <body> <div class="container"> <header> <div class="logo-mark"></div> <h1>PERSIAI GROUP, LLC</h1> <div class="subtitle">Commercial Capital Markets & Strategic Advisory</div> <br> <div class="executive-contact"> <span class="executive-name">Guillermo D. Anaya Diaz</span><br> Managing Director, Capital Markets </div> </header> <main> <section class="about-section"> <h2>About the Firm</h2> <p class="about-text">
+<style>
+:root {
+--bg-color: #000000;
+--container-bg: rgba(10, 10, 10, 0.9);
+--text-color: #e5e5e5;
+--accent-gold: #d4af37;
+--deep-gold: #aa841c;
+--muted-color: #a3a3a3;
+--border-color: #1a1a1a;
+}
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+background-color: var(--bg-color);
+background-image: radial-gradient(rgba(212, 175, 55, 0.015) 1px, transparent 0), radial-gradient(ellipse at 50% 20%, rgba(170, 132, 28, 0.1), transparent 50%);
+background-size: 30px 30px, 100% 100%;
+color: var(--text-color);
+line-height: 1.6;
+padding: 40px 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+.container {
+max-width: 650px;
+width: 100%;
+background: var(--container-bg);
+backdrop-filter: blur(12px);
+-webkit-backdrop-filter: blur(12px);
+padding: 40px;
+border-radius: 8px;
+border: 1px solid var(--border-color);
+box-shadow: 0 30px 60px rgba(0, 0, 0, 0.95);
+position: relative;
+overflow: hidden;
+}
+.container::before {
+content: "";
+position: absolute;
+top: 0;
+right: 0;
+width: 100%;
+height: 3px;
+background: linear-gradient(90deg, transparent, var(--accent-gold), transparent);
+}
+header {
+text-align: center;
+margin-bottom: 32px;
+border-bottom: 1px solid var(--border-color);
+padding-bottom: 24px;
+}
+.logo-mark {
+width: 260px;
+height: 260px;
+margin: 0 auto 10px auto;
+display: block;
+}
+h1 {
+font-size: 1.75rem;
+font-weight: 700;
+letter-spacing: 0.05em;
+color: #ffffff;
+margin-bottom: 4px;
+}
+.subtitle {
+font-size: 0.85rem;
+text-transform: uppercase;
+letter-spacing: 0.15em;
+color: var(--accent-gold);
+font-weight: 600;
+margin-bottom: 16px;
+}
+.executive-contact {
+font-size: 0.85rem;
+color: var(--muted-color);
+border-left: 2px solid var(--accent-gold);
+padding-left: 12px;
+margin: 16px auto 0 auto;
+display: inline-block;
+text-align: left;
+}
+.executive-name {
+color: #ffffff;
+font-weight: 500;
+letter-spacing: 0.02em;
+}
+main {
+margin-bottom: 32px;
+}
+section {
+margin-bottom: 32px;
+}
+section h2 {
+font-size: 1rem;
+font-weight: 600;
+color: #ffffff;
+margin-bottom: 16px;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+border-bottom: 1px solid var(--border-color);
+padding-bottom: 6px;
+}
+.about-text {
+font-size: 0.95rem;
+color: #cccccc;
+text-align: justify;
+line-height: 1.3;
+}
+.cap-grid {
+display: grid;
+grid-template-columns: 1fr;
+gap: 12px;
+}
+.cap-card {
+background: #0a0a0a;
+padding: 18px;
+border-radius: 4px;
+border: 1px solid var(--border-color);
+transition: border-color 0.2s ease;
+}
+.cap-card:hover {
+border-color: var(--deep-gold);
+}
+.cap-card h3 {
+font-size: 0.95rem;
+color: var(--accent-gold);
+margin-bottom: 6px;
+font-weight: 600;
+letter-spacing: 0.02em;
+}
+.cap-card p {
+font-size: 0.9rem;
+color: var(--muted-color);
+line-height: 1.35;
+}
+.cta-container {
+display: flex;
+flex-direction: column;
+gap: 16px;
+align-items: center;
+margin-top: 36px;
+}
+.btn {
+display: inline-block;
+width: 100%;
+max-width: 380px;
+text-align: center;
+font-weight: 600;
+font-size: 0.85rem;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+text-decoration: none;
+padding: 14px 24px;
+border-radius: 4px;
+transition: all 0.2s ease;
+}
+.btn-primary {
+background-color: transparent;
+color: var(--accent-gold);
+border: 1px solid var(--accent-gold);
+}
+.btn-primary:hover {
+background-color: var(--accent-gold);
+color: #000000;
+box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+}
+.btn-secondary {
+background-color: #0f0f0f;
+color: #ffffff;
+border: 1px solid var(--border-color);
+font-size: 0.8rem;
+}
+.btn-secondary:hover {
+border-color: var(--muted-color);
+background-color: #1a1a1a;
+}
+footer {
+border-top: 1px solid var(--border-color);
+padding-top: 20px;
+text-align: center;
+font-size: 0.75rem;
+color: var(--muted-color);
+letter-spacing: 0.05em;
+}
+@media (max-width: 480px) {
+body {
+padding: 15px 10px;
+}
+.container {
+padding: 24px 16px;
+}
+h1 {
+font-size: 1.4rem;
+line-height: 1.2;
+}
+.subtitle {
+font-size: 0.75rem;
+letter-spacing: 0.1em;
+}
+.about-text {
+font-size: 0.9rem;
+line-height: 1.25;
+}
+.cap-card {
+padding: 14px;
+}
+.cap-card p {
+line-height: 1.25;
+}
+.btn {
+padding: 12px 16px;
+font-size: 0.8rem;
+}
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<!-- Integrated Multi-Orbit High-Density Lorenz Attractor -->
+<svg class="logo-mark" viewBox="0 0 200 200" xmlns="https://www.google.com/url?q=http://www.w3.org/2000/svg&source=gmail&ust=1790943898203000&sa=E">
+<!-- Drop Shadows for Executive Embossed Effect -->
+<defs>
+<filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+<feGaussianBlur stdDeviation="1.5" result="blur" />
+<feComposite in="SourceGraphic" in2="blur" operator="over"/>
+</filter>
+<filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+<feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000000" flood-opacity="0.8"/>
+</filter>
+</defs>
+<g filter="url(#shadow)">
+<!-- Orbit Left Wing Layering (Gold Shifting Vectors) -->
+<path d="M 100 135 C 10 135, -20 90, 30 40 C 48 10, 82 55, 100 135" fill="none" stroke="#d4af37" stroke-width="1.8" filter="url(#glow)" opacity="0.95"/>
+<path d="M 100 135 C 15 134, -15 89, 33 41 C 51 11, 83 56, 100 135" fill="none" stroke="#e5c158" stroke-width="1.5" opacity="0.9"/>
+<path d="M 100 135 C 20 133, -10 88, 36 42 C 54 12, 84 57, 100 135" fill="none" stroke="#aa841c" stroke-width="1.3" opacity="0.85"/>
+<path d="M 100 135 C 25 132, -5 87, 39 43 C 57 13, 85 58, 100 135" fill="none" stroke="#bd982a" stroke-width="1.1" opacity="0.8"/>
+<path d="M 100 135 C 30 131, 0 86, 42 44 C 60 14, 86 59, 100 135" fill="none" stroke="#947113" stroke-width="0.9" opacity="0.75"/>
+<path d="M 100 135 C 35 130, 5 85, 45 45 C 63 15, 87 60, 100 135" fill="none" stroke="#7a5b0b" stroke-width="0.7" opacity="0.7"/>
+<path d="M 100 135 C 40 129, 10 84, 48 46 C 66 16, 88 61, 100 135" fill="none" stroke="#d4af37" stroke-width="0.5" opacity="0.6"/>
+<path d="M 100 135 C 45 128, 15 83, 51 47 C 69 17, 89 62, 100 135" fill="none" stroke="#aa841c" stroke-width="0.4" opacity="0.5"/>
+<path d="M 100 135 C 50 127, 20 82, 54 48 C 72 18, 90 63, 100 135" fill="none" stroke="#5c4303" stroke-width="0.3" opacity="0.4"/>
+<path d="M 100 135 C 55 126, 25 81, 57 49 C 75 19, 91 64, 100 135" fill="none" stroke="#2b2001" stroke-width="0.2" opacity="0.3"/>
+
+<!-- Orbit Right Wing Layering (Symmetric Mirror) -->
+<path d="M 100 135 C 190 135, 220 90, 170 40 C 152 10, 118 55, 100 135" fill="none" stroke="#d4af37" stroke-width="1.8" filter="url(#glow)" opacity="0.95"/>
+<path d="M 100 135 C 185 134, 215 89, 167 41 C 149 11, 117 56, 100 135" fill="none" stroke="#e5c158" stroke-width="1.5" opacity="0.9"/>
+<path d="M 100 135 C 180 133, 210 88, 164 42 C 146 12, 116 57, 100 135" fill="none" stroke="#aa841c" stroke-width="1.3" opacity="0.85"/>
+<path d="M 100 135 C 175 132, 205 87, 161 43 C 143 13, 115 58, 100 135" fill="none" stroke="#bd982a" stroke-width="1.1" opacity="0.8"/>
+<path d="M 100 135 C 170 131, 200 86, 158 44 C 142 14, 114 59, 100 135" fill="none" stroke="#947113" stroke-width="0.9" opacity="0.75"/>
+<path d="M 100 135 C 165 130, 195 85, 155 45 C 137 15, 113 60, 100 135" fill="none" stroke="#7a5b0b" stroke-width="0.7" opacity="0.7"/>
+<path d="M 100 135 C 160 129, 190 84, 152 46 C 134 16, 112 61, 100 135" fill="none" stroke="#d4af37" stroke-width="0.5" opacity="0.6"/>
+<path d="M 100 135 C 155 128, 195 83, 149 47 C 131 17, 111 62, 100 135" fill="none" stroke="#aa841c" stroke-width="0.4" opacity="0.5"/>
+<path d="M 100 135 C 150 127, 180 82, 146 48 C 128 18, 110 63, 100 135" fill="none" stroke="#5c4303" stroke-width="0.3" opacity="0.4"/>
+<path d="M 100 135 C 145 126, 175 81, 143 49 C 125 19, 109 64, 100 135" fill="none" stroke="#2b2001" stroke-width="0.2" opacity="0.3"/>
+
+<!-- Central Convergence Focal Point -->
+<circle cx="100" cy="135" r="2.5" fill="#ffffff"/>
+</g>
+</svg>
+<h1>PERSIAI GROUP, LLC</h1>
+<div class="subtitle">Commercial Capital Markets & Strategic Advisory</div>
+<div class="executive-contact">
+<span class="executive-name">Guillermo D. Anaya Diaz</span><br>
+Managing Director, Capital Markets
+</div>
+</header>
+
+<main>
+<section id="about">
+<h2>About the Firm</h2>
+<p class="about-text">
+PERSIAI GROUP, LLC is an elite institutional commercial finance advisory and private consulting firm operating nationwide. We specialize in enterprise cash flow engineering, complex commercial mortgage architecture, and structured debt remediation protocols. Anchored in rigorous algorithmic frameworks and strategic advisory execution, our team serves high-net-worth operators, corporate issuers, and elite businesses navigating specialized asset classes. We translate market inefficiencies into optimized liquid capital positions, providing our clients with the definitive edge required to sustain non-linear scaling.
+</p>
+</section>
+
+<section id="services">
+<h2>Product Suites</h2>
+<div class="cap-grid">
+<div class="cap-card">
+<h3>Government Contract Funding</h3>
+<p>Specialized mobilization capital and bridge facilities optimized for entities secured with active federal allocations between $50,000 and $500,000.</p>
+</div>
+<div class="cap-card">
+<h3>Commercial Mortgage Architecture</h3>
+<p>Custom structural underwriting for high-ticket acquisition financing, private placement debt construction, and portfolio capital positioning.</p>
+</div>
+<div class="cap-card">
+<h3>Enterprise Cash Flow Engineering</h3>
+<p>B2B alternative financing strategies, asset-based lending integration, and commercial credit lines designed to maximize client liquidity velocity.</p>
+</div>
+<div class="cap-card">
+<h3>Corporate Debt Remediation Protocols</h3>
+<p>Sophisticated mitigation and liability reconfiguration strategies to safeguard company cash flows and stabilize volatile capital reserves.</p>
+</div>
+</div>
+</section>
+</main>
+
+<div class="cta-container">
+<a href="https://www.google.com/url?q=https://www.reveallending.co/id/13110522983&source=gmail&ust=1790943898204000&sa=E" class="btn btn-primary" target="_blank">Access Client Portal</a>
+<a href="mailto:guille.anayadiaz@gmail.com" class="btn btn-secondary">Initiate Institutional Intake</a>
+</div>
+
+<footer>
+<p>&copy; 2026 PERSIAI GROUP, LLC. All Rights Reserved. Principal Base: Olathe, Kansas.</p>
+</footer>
+</div>
+</body>
+</html>
