@@ -1,287 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PERSIAI GROUP, LLC</title>
-    <style>
-        :root {
-            --bg-color: #000000;
-            --container-bg: rgba(10, 10, 10, 0.85);
-            --text-color: #e5e5e5;
-            --accent-gold: #d4af37;
-            --deep-gold: #aa841c;
-            --muted-color: #a3a3a3;
-            --border-color: #1a1a1a;
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-color);
-            /* Mathematical Quantum Superposition Graph Grid Background */
-            background-image: 
-                linear-gradient(to right, rgba(212, 175, 55, 0.03) 1px, transparent 1px),
-                linear-gradient(to bottom, rgba(212, 175, 55, 0.03) 1px, transparent 1px),
-                radial-gradient(ellipse at 50% 30%, rgba(170, 132, 28, 0.15), transparent 60%),
-                linear-gradient(135deg, transparent 45%, rgba(212, 175, 55, 0.05) 49%, rgba(212, 175, 55, 0.08) 50%, rgba(212, 175, 55, 0.05) 51%, transparent 55%);
-            background-size: 40px 40px, 40px 40px, 100% 100%, 100% 100%;
-            color: var(--text-color);
-            line-height: 1.6;
-            padding: 40px 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-
-        /* Abstract overlapping sine waves to mimic a superposition state graph */
-        body::before {
-            content: "";
-            position: absolute;
-            top: 15%;
-            left: 0;
-            width: 100%;
-            height: 300px;
-            background: 
-                radial-gradient(circle at 30% 50%, transparent 60%, rgba(212, 175, 55, 0.02) 62%, transparent 65%),
-                radial-gradient(circle at 70% 30%, transparent 50%, rgba(212, 175, 55, 0.02) 52%, transparent 55%);
-            pointer-events: none;
-            z-index: 0;
-        }
-
-        .container {
-            max-width: 650px;
-            width: 100%;
-            background: var(--container-bg);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            padding: 40px;
-            border-radius: 8px;
-            border: 1px solid var(--border-color);
-            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.9);
-            position: relative;
-            overflow: hidden;
-            z-index: 1;
-        }
-
-        /* Tactical mathematical coordinate alignment bar */
-        .container::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            right: 0;
-            width: 100%;
-            height: 3px;
-            background: linear-gradient(90deg, transparent, var(--accent-gold), transparent);
-        }
-
-        header {
-            margin-bottom: 32px;
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 24px;
-        }
-
-        h1 {
-            font-size: 1.75rem;
-            font-weight: 700;
-            letter-spacing: 0.05em;
-            color: #ffffff;
-            margin-bottom: 4px;
-        }
-
-        .subtitle {
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            letter-spacing: 0.15em;
-            color: var(--accent-gold);
-            font-weight: 600;
-            margin-bottom: 16px;
-        }
-
-        .executive-contact {
-            font-size: 0.85rem;
-            color: var(--muted-color);
-            border-left: 2px solid var(--accent-gold);
-            padding-left: 12px;
-            margin-top: 12px;
-        }
-
-        .executive-name {
-            color: #ffffff;
-            font-weight: 500;
-            letter-spacing: 0.02em;
-        }
-
-        main {
-            margin-bottom: 32px;
-        }
-
-        section {
-            margin-bottom: 32px;
-        }
-
-        section h2 {
-            font-size: 1rem;
-            font-weight: 600;
-            color: #ffffff;
-            margin-bottom: 16px;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 6px;
-        }
-
-        .about-text {
-            font-size: 0.95rem;
-            color: #cccccc;
-            text-align: justify;
-        }
-
-        .cap-grid {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 12px;
-        }
-
-        .cap-card {
-            background: rgba(15, 15, 15, 0.9);
-            padding: 18px;
-            border-radius: 4px;
-            border: 1px solid var(--border-color);
-            transition: all 0.2s ease;
-        }
-
-        .cap-card:hover {
-            border-color: var(--deep-gold);
-            background: rgba(20, 20, 20, 0.95);
-        }
-
-        .cap-card h3 {
-            font-size: 0.95rem;
-            color: var(--accent-gold);
-            margin-bottom: 6px;
-            font-weight: 600;
-            letter-spacing: 0.02em;
-        }
-
-        .cap-card p {
-            font-size: 0.9rem;
-            color: var(--muted-color);
-        }
-
-        .cta-container {
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
-            align-items: center;
-            margin-top: 36px;
-        }
-
-        .btn {
-            display: inline-block;
-            width: 100%;
-            max-width: 380px;
-            text-align: center;
-            font-weight: 600;
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            text-decoration: none;
-            padding: 14px 24px;
-            border-radius: 4px;
-            transition: all 0.2s ease;
-        }
-
-        .btn-primary {
-            background-color: transparent;
-            color: var(--accent-gold);
-            border: 1px solid var(--accent-gold);
-        }
-
-        .btn-primary:hover {
-            background-color: var(--accent-gold);
-            color: #000000;
-            box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
-        }
-
-        .btn-secondary {
-            background-color: rgba(15, 15, 15, 0.8);
-            color: #ffffff;
-            border: 1px solid var(--border-color);
-            font-size: 0.8rem;
-        }
-
-        .btn-secondary:hover {
-            border-color: var(--muted-color);
-            background-color: #1a1a1a;
-        }
-
-        footer {
-            border-top: 1px solid var(--border-color);
-            padding-top: 20px;
-            text-align: center;
-            font-size: 0.75rem;
-            color: var(--muted-color);
-            letter-spacing: 0.05em;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PERSIAI GROUP, LLC | Commercial Capital Markets & Strategic Advisory</title>
+<meta name="description" content="PERSIAI GROUP, LLC is an institutional business-to-business (B2B) commercial capital advisory firm specializing in enterprise cash flow engineering, debt structure optimization, and capital readiness.">
+<meta name="robots" content="index, follow">
+<style>
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body {
+background-color: #000000;
+color: #D4AF37;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+line-height: 1.0;
+padding: 20px;
+}
+.container {
+max-width: 600px;
+margin: 0 auto;
+}
+header {
+border-bottom: 1px solid #D4AF37;
+padding-bottom: 15px;
+margin-bottom: 20px;
+text-align: center;
+}
+h1 {
+font-size: 24px;
+font-weight: 700;
+letter-spacing: 1px;
+margin-bottom: 5px;
+}
+.subtitle {
+font-size: 14px;
+color: #FFFFFF;
+text-transform: uppercase;
+letter-spacing: 2px;
+margin-bottom: 10px;
+}
+.executive {
+font-size: 13px;
+color: #FFFFFF;
+margin-bottom: 2px;
+}
+.title-rank {
+font-size: 12px;
+color: #888888;
+}
+section {
+margin-bottom: 25px;
+}
+h2 {
+font-size: 18px;
+border-bottom: 1px solid #333333;
+padding-bottom: 5px;
+margin-bottom: 12px;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+p {
+font-size: 14px;
+color: #FFFFFF;
+margin-bottom: 10px;
+text-align: justify;
+}
+.suite-item {
+margin-bottom: 15px;
+padding-left: 10px;
+border-left: 2px solid #D4AF37;
+}
+h3 {
+font-size: 15px;
+margin-bottom: 4px;
+color: #D4AF37;
+}
+.suite-desc {
+font-size: 13px;
+color: #FFFFFF;
+}
+.links {
+margin-top: 30px;
+border-top: 1px solid #333333;
+padding-top: 15px;
+text-align: center;
+}
+.links a {
+color: #D4AF37;
+text-decoration: none;
+font-size: 14px;
+margin: 0 10px;
+display: inline-block;
+}
+.links a:hover {
+text-decoration: underline;
+}
+footer {
+margin-top: 40px;
+text-align: center;
+font-size: 11px;
+color: #888888;
+border-top: 1px solid #333333;
+padding-top: 15px;
+}
+</style>
 </head>
 <body>
+<div class="container">
+<header>
+<h1>PERSIAI GROUP, LLC</h1>
+<div class="subtitle">Commercial Capital Markets & Strategic Advisory</div>
+<div class="executive">Guillermo D. Anaya Diaz</div>
+<div class="title-rank">Managing Director, Capital Markets | U.S. Navy Veteran</div>
+</header>
 
-    <div class="container">
-        <header>
-            <h1>PERSIAI GROUP, LLC</h1>
-            <div class="subtitle">Commercial Capital Markets & Strategic Advisory</div>
-            <div class="executive-contact">
-                <span class="executive-name">Guillermo D. Anaya Diaz</span><br>
-                Managing Director, Capital Markets
-            </div>
-        </header>
+<section>
+<h2>About the Firm</h2>
+<p>PERSIAI GROUP, LLC is an institutional business-to-business (B2B) commercial capital advisory firm specializing in enterprise cash flow engineering, debt structure optimization, and capital readiness. Operating as a strategic intermediary for corporate entities nationwide, the firm manages complex underwriting parameters to systematically align operational business structures with institutional alternative financing networks and private placement facilities.</p>
+</section>
 
-        <main>
-            <section class="about-section">
-                <h2>About the Firm</h2>
-                <p class="about-text">
-                    PERSIAI GROUP, LLC is an institutional business-to-business (B2B) commercial capital advisory firm specializing in enterprise cash flow engineering, debt structure optimization, and capital readiness. Operating as a strategic intermediary for corporate entities nationwide, the firm manages complex underwriting parameters to systematically align operational business structures with institutional alternative financing networks and private placement facilities.
-                </p>
-            </section>
+<section>
+<h2>B2B Capital Architecture Suite</h2>
 
-            <section class="capabilities">
-                <h2>B2B Capital Architecture Suite</h2>
-                <div class="cap-grid">
-                    <div class="cap-card">
-                        <h3>Government Contract Mobilization Funding</h3>
-                        <p>Structuring specialized working capital facilities designed to bridge execution liquidity bottlenecks for public-sector and federal award contractors.</p>
-                    </div>
+<div class="suite-item">
+<h3>Government Contract Mobilization Funding</h3>
+<div class="suite-desc">Structuring specialized working capital facilities designed to bridge execution liquidity bottlenecks for public-sector and federal award contractors.</div>
+</div>
 
-                    <div class="cap-card">
-                        <h3>Commercial Lines of Credit</h3>
-                        <p>Securing high-limit, flexible revolving corporate credit lines up to $750,000 with interest-only exposure on drawn capital.</p>
-                    </div>
+<div class="suite-item">
+<h3>Commercial Lines of Credit</h3>
+<div class="suite-desc">Securing high-limit, flexible revolving corporate credit lines up to $750,000 with interest-only exposure on drawn capital.</div>
+</div>
 
-                    <div class="cap-card">
-                        <h3>Asset-Backed Term Loans</h3>
-                        <p>Engineering predictable, fixed-rate structural funding mechanisms from $25,000 to $500,000 scaled across 12-to-60 month balance sheet optimization pathways.</p>
-                    </div>
+<div class="suite-item">
+<h3>Asset-Backed Term Loans</h3>
+<div class="suite-desc">Engineering predictable, fixed-rate structural funding mechanisms from $25,000 to $500,000 scaled across 12-to-60 month balance sheet optimization pathways.</div>
+</div>
 
-                    <div class="cap-card">
-                        <h3>Revenue-Based Structured Financing</h3>
-                        <p>Facilitating flexible liquidity injections from $2,000 to $1,000,000 structured to align capital deployment liabilities dynamically with performance metrics.</p>
-                    </div>
+<div class="suite-item">
+<h3>Revenue-Based Structured Financing</h3>
+<div class="suite-desc">Facilitating flexible liquidity injections from $2,000 to $1,000,000 structured to align capital deployment liabilities dynamically with performance metrics.</div>
+</div>
 
-                    <div class="cap-card">
-                        <h3>Commercial Real Estate Capital</h3>
-                        <p>Structuring short-term bridge stabilization placements, Fix & Flip leverage up to 90% LTC, Ground-Up Construction, and 30-year fixed DSCR asset vehicles.</p>
-                    </div>
+<div class="suite-item">
+<h3>Commercial Real Estate Capital</h3>
+<div class="suite-desc">Structuring short-term bridge stabilization placements, Fix & Flip leverage up to 90% LTC, Ground-Up Construction, and 30-year fixed DSCR asset vehicles.</div>
+</div>
 
-                    <div class="cap-card">
-                        <h3>Reverse Consolidation Advisory</h3>
-                        <p>Specialized corporate debt remediation protocols to systematically compress daily or weekly ACH cash flow strain by 20% to 50% without triggering balance acceleration.</p>
-                    </div>
-                </div>
+<div class="suite-item">
+<h3>Reverse Consolidation Advisory</h3>
+<div class="suite-desc">Specialized corporate debt remediation protocols to systematically compress daily or weekly ACH cash flow strain by 20% to 50% without triggering balance acceleration.</div>
+</div>
+</section>
+
+<div class="links">
+<a href="#">Access Partner Funding Portal</a>
+<a href="#">Direct Executive Inquiry</a>
+</div>
+
+<footer>
+&copy; 2026 PERSIAI GROUP, LLC. All rights reserved.
+</footer>
+</div>
+</body>
+</html>
